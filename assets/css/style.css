@@ -1,0 +1,9 @@
+body{
+    background-color: grey;
+    color: white;
+}
+a{
+    background-color: powderblue;
+    color: red;
+    border: solid blueviolet 3px;
+}

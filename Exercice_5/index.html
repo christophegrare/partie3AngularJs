@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="testCtrl">
+    <head>
+        <meta charset="utf-8">
+        <link href="../assets/css/style.css" rel="stylesheet" type="text/css"/>
+        <title>Exercice 5</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!--Dans le fichier html fourni, n'afficher que les 150 
+        premiers caractères de la variable **article**.-->
+        <div>
+            {{article| limitTo:150}}
+        </div>
+        <br/><a href="../Exercice_4/index.html">précédent</a>
+        <a href="../Exercice_6/index.html">suivant</a>
+    </body>
+</html>
